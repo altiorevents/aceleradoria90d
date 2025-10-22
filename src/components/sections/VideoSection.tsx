@@ -23,26 +23,14 @@ export const VideoSection = () => {
 
           {/* Video Player */}
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-secondary/50 backdrop-blur-sm">
-            <div className="aspect-video bg-gradient-to-br from-secondary to-secondary/50 flex items-center justify-center">
-              {/* Placeholder - Replace with actual video embed */}
-              <div className="text-center space-y-4">
-                <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-primary/20 border-2 border-primary group hover:bg-primary/30 cursor-pointer transition-all">
-                  <Play className="h-10 w-10 text-primary fill-primary" />
-                </div>
-                <p className="text-muted-foreground font-body">
-                  VSL - Video de Vendas (Integre seu vídeo aqui)
-                </p>
-              </div>
-              
-              {/* To integrate a real video, replace the div above with an iframe:
+            <div className="aspect-video">
               <iframe
-                src="YOUR_VIDEO_URL"
-                title="Video de Vendas - Acelerador IA"
+                src="https://www.youtube.com/embed/ErKVTomZp1w"
+                title="Video de Vendas - Acelerador IA 90 Dias"
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
-              */}
             </div>
           </div>
 
