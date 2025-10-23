@@ -4,8 +4,7 @@ import { Card } from "@/components/ui/card";
 
 export const CTASection = () => {
   const handleCTAClick = () => {
-    // Replace with your actual checkout/form URL
-    window.open("https://seu-link-de-checkout.com", "_blank");
+    window.open("https://payment.ticto.app/O8777DEE5", "_blank");
   };
 
   return (
