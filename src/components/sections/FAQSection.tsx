@@ -23,10 +23,6 @@ export const FAQSection = () => {
       question: "Como funciona a Garantia de Execução na prática?",
       answer: "Se você participar de pelo menos 80% dos Sprints, fizer as atividades propostas e, mesmo assim, não tiver um Agente funcional ao final dos 90 dias, agendaremos uma sessão 1-a-1 com um dos diretores da PTX. Nessa sessão, faremos um diagnóstico do que travou e trabalharemos com você, sem custo adicional, até o Agente estar rodando.",
     },
-    {
-      question: "O que acontece depois dos 90 dias?",
-      answer: "Você tem um Agente funcional e autonomia para mantê-lo. Mas se quiser suporte contínuo, oferecemos um plano opcional de 'Suporte Executivo' (R$ 497/mês) onde continuamos acompanhando melhorias e novos Agentes. É opcional - você não é obrigado a contratar.",
-    },
   ];
 
   return (
