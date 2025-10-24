@@ -25,8 +25,8 @@ export const VideoSection = () => {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-secondary/50 backdrop-blur-sm">
             <div className="aspect-video">
               <iframe
-                src="https://www.youtube.com/embed/ErKVTomZp1w"
-                title="Video de Vendas - Acelerador IA 90 Dias"
+                src="https://www.youtube.com/embed/OpEJXdDIWpc"
+                title="Acelerador IA 90 Dias"
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
